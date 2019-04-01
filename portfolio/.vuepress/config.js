@@ -2,6 +2,7 @@ const config = require('../config.json');
 module.exports = {
   title: config.title,
   description: config.description,
+  //base: "/portfolio-vuepress/",
   base: "/",
   themeConfig: {
     logo: config.logo,
